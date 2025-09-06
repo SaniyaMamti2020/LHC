@@ -1,27 +1,32 @@
-# Humans Library
-a Python collection of biblical humans and their family relations.
-<br>
-Please note, this is the source code of version 0.0.1, which is the starter file for my "Create Python Package" tutorial on YouTube:
-<br>
-https://youtu.be/9Ii34WheBOA
+# signal_SaniyaMamti_92510133016
 
-## Quickstart
-the library provides different scopes of information
+A custom Python package demonstrating fundamental concepts of **Signals and Systems**.  
+This package contains unitary signals, trigonometric signals, and signal operations.
 
-### Father Objects
-a set of classes that represent biblical fathers, such as Abraham, Isaac and Jacob.
+---
 
-```
-import humans
+## 📦 Modules
 
-abraham = humans.Abraham()
-print(abraham.__dict__)
-```
-### List of Humans
-on a broader scope, the library traces different categories of humans, such as fathers, mothers and children.
-```
-import humans
+- **unitary_signals.py**
+  - `unit_step(n)` – Generates a unit step signal.
+  - `unit_impulse(n)` – Generates a unit impulse signal.
+  - `ramp_signal(n)` – Generates a ramp signal.
 
-all_mothers = humans.mothers
-print(all_mothers)
-```
+- **trigonometric_signals.py**
+  - `sine_wave(A, f, phi, t)` – Generates a sine wave.
+  - `cosine_wave(A, f, phi, t)` – Generates a cosine wave.
+  - `exponential_signal(A, alpha, t)` – Generates an exponential signal.
+
+- **operations.py**
+  - `time_shift(signal, k)` – Shifts a signal in time.
+  - `time_scale(signal, k)` – Scales a signal in time.
+  - `signal_addition(x, y)` – Adds two signals.
+  - `signal_multiplication(x, y)` – Multiplies two signals element-wise.
+
+---
+
+## ⚙️ Installation
+
+### Local installation (from wheel):
+```bash
+pip install dist/signal_SaniyaMamti_92510133016-0.0.1-py3-none-any.whl

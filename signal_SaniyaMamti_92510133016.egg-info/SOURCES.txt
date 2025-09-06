@@ -1,0 +1,11 @@
+setup.py
+signal_SaniyaMamti_92510133016/__init__.py
+signal_SaniyaMamti_92510133016/main.py
+signal_SaniyaMamti_92510133016/operations.py
+signal_SaniyaMamti_92510133016/trigonometric_signals.py
+signal_SaniyaMamti_92510133016/unitary_signals.py
+signal_SaniyaMamti_92510133016.egg-info/PKG-INFO
+signal_SaniyaMamti_92510133016.egg-info/SOURCES.txt
+signal_SaniyaMamti_92510133016.egg-info/dependency_links.txt
+signal_SaniyaMamti_92510133016.egg-info/requires.txt
+signal_SaniyaMamti_92510133016.egg-info/top_level.txt

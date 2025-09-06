@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: signal_SaniyaMamti_92510133016
+Version: 0.0.1
+Summary: Custom signal processing package demonstrating Signals and Systems concepts
+Author: Saniya Mamti
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
